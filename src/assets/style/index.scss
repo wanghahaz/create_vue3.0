@@ -1,0 +1,110 @@
+$text:#3A3C4A;
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+}
+
+img {
+    pointer-events: none;
+}
+
+.loading_ {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+}
+
+input,
+select,
+textarea {
+    font-size: 100%;
+    outline: none;
+    border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: 600;
+}
+
+
+/* 默认不显示下划线，保持页面简洁 */
+ins,
+a {
+    text-decoration: none;
+    color: $text;
+}
+
+body,
+div,
+span {
+    color: #333;
+}
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* 改变span display */
+span {
+    display: inline-block;
+}
+
+span,
+div {
+    box-sizing: border-box;
+}
+
+.fs_22 {
+    font-size: 22px;
+}
+
+.fs_12 {
+    font-size: 12px;
+}
+
+.fs_14 {
+    font-size: 14px;
+}
+
+.fs_18 {
+    font-size: 18px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex_c {
+    display: flex;
+    flex-direction: column;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+// 遮罩层
+.mask_box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.6);
+}
+
